@@ -1,3 +1,6 @@
+quantized_model_tokenizer/*
+quantized_model.pt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
