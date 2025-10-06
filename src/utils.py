@@ -60,7 +60,7 @@ def load_quantized_model(model_path, tokenizer_dir, device="cpu"):
     """
 
     # Set the quantization backend before loading
-    torch.backends.quantized.engine = "qnnpack"
+    torch.backends.quantized.engine = "fbgemm"
 
     # Load tokenizer
     print(f"Loading tokenizer from '{tokenizer_dir}'...")

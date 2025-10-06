@@ -1,4 +1,5 @@
 quantized_model_tokenizer/*
+trained_fp32_model/*
 quantized_model.pt
 
 # Byte-compiled / optimized / DLL files
